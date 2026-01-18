@@ -76,7 +76,7 @@ Whenever Lambda is triggered again, the website content is updated.
 
 ---
 ## Website Preview
-
+http://student-expense-sanjana.s3-website.ap-south-1.amazonaws.com/
 ![Student Expense Tracker Output](website-output.png)
 
 
