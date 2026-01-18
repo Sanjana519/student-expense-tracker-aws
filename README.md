@@ -63,4 +63,17 @@ There are no servers, no databases, and no backend APIs involved.
 1. AWS Lambda function is triggered manually (or can be scheduled).
 2. Expense data (Tea, Bus, Snacks, Recharge) is processed.
 3. Total expense is calculated inside Lambda.
-4. Lambda creates a styled HTML page w
+4. Lambda creates a styled HTML page with the expense report.
+5. The HTML file is uploaded to an S3 bucket as `index.html`.
+6. Amazon S3 serves the page publicly as a static website.
+
+Whenever Lambda is triggered again, the website content is updated.
+
+---
+
+## 🌐 Live Demo
+🔗 https://student-expense-sanjana.s3-website.ap-south-1.amazonaws.com/
+
+---
+
+## 📂 Repository Structure
