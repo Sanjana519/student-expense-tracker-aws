@@ -77,3 +77,17 @@ Whenever Lambda is triggered again, the website content is updated.
 ---
 
 ## 📂 Repository Structure
+
+## 🧩 Lambda Function Code Explanation
+
+The core logic of this project is implemented inside the AWS Lambda function
+written in Python (`lambda_function.py`). This function is responsible for
+calculating expenses, generating an HTML page, and uploading it to Amazon S3.
+
+---
+
+### 1️⃣ Importing Required Libraries
+```python
+import json
+import boto3
+
