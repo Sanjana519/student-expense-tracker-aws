@@ -72,13 +72,10 @@ Whenever Lambda is triggered again, the website content is updated.
 ---
 
 ## 🌐 Live Demo
-🔗 https://student-expense-sanjana.s3-website.ap-south-1.amazonaws.com/
-
----
-## Website Preview
+🔗 Website Preview
 http://student-expense-sanjana.s3-website.ap-south-1.amazonaws.com/
 
-
+---
 
 ## 📂 Repository Structure
 
